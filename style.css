@@ -1,0 +1,128 @@
+*{
+    
+    font-family: cursive, sans-serif;
+  }
+  #container{
+      width: 750px;
+      height: 600px;
+      margin: 10px auto;
+     /* background-color:aqua;*/
+      padding: 20px;
+      border-radius: 10px;
+      position: relative;
+  }
+  
+  #front{
+      font-size: 40px;
+      color: #f8a008;
+      padding: 10px;
+      margin: 30px auto 20px auto;
+      z-index: 2;
+      display: none;
+  }
+  #front img{
+      width: 280px;
+  }
+  #header{
+      width: 560px;
+      height: 50px;
+      margin:  10px auto;
+      font-size: 33px;
+      font-weight: bold;
+      font-style: italic;
+    text-align: center;
+    color: #cc5a18;
+      box-shadow: 0px 7px 0px 0px #cc5a18;
+  }
+  #fruitcontainer{
+      background-image: url(./../images/360_F_603719733_I9zSRZ2tNm0NO0OGzmvdhQpeJvkTe4Fg.jpg) ;
+      background-size: cover;
+      background-position: center;
+      width: 760px;
+      height: 550px;
+      padding: 10px;
+      margin: 30px auto 50px auto;
+      padding: 18px;
+      text-align: center;
+      font-family: cursive,sans-serif;
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: 0px 4px 0px 0px #4b4b4e;
+      position: relative;
+      
+  }
+  
+  .fruit{
+      display: none;
+      position: absolute;
+  }
+  #score{
+      display: none;
+  }
+  .scoreDisplay{
+      z-index: 1;
+      display: flex;
+      background-color: transparent;
+      color: #888e61;
+      position: absolute;
+     font-size: 30px;
+     justify-items:  center;
+  }
+  
+  #score img{
+      width: 40px;
+    align-items: center;
+     padding-right: 5px;
+  }
+  #trialsleft{
+      margin-top: 7px;
+      display: flex;
+      position: absolute;
+      left:550px;
+      background-color:transparent;
+      z-index: 1;
+  }
+  .life{
+      width: 30px;
+      padding-right: 5px;
+  }
+  #startReset{
+    text-align: center;
+  }
+  #startReset button{
+     
+    width:300px;
+     height:39px;
+      transition: all .2s;
+      margin-bottom: 25px;
+      font-size: 25px;
+      font-style: italic;
+      font-weight: bold;
+      color:  #cc5a18;
+      border-radius: 10px;
+      padding-bottom: 10px;
+      background-color:antiquewhite;
+  }
+  /*#startReset button:active{
+      background-color: #69620c;
+      box-shadow: 0px 0px #5c5619;
+      top: 4px;
+      color: white;
+ } */
+  #startReset button:hover{
+    background-color: #cc5a18;
+    color: white;
+  }
+  #gameOver{
+      box-sizing: border-box;
+      text-align: center;
+      color: #f8a008;
+      text-transform: upperCase;
+      font-size: 45px;
+      font-weight: bold;
+      font-style: italic;
+      position: absolute;
+      top: 170px;
+      left: 150px;
+      z-index: 2;
+  }
